@@ -1,6 +1,6 @@
 {
   "name": "gh-username-available",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Find out whether a GitHub username is available or taken",
   "license": "MIT",
   "repository": "icyflame/gh-username-available",
