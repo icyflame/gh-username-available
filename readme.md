@@ -15,11 +15,15 @@ $ npm install --save gh-username-available
 ```js
 var ghUsernameAvailable = require('gh-username-available');
 
-ghUsernameAvailable('icyflame');
-//=> false
+ghUsernameAvailable('icyflame', function (err, value){
+  console.log(value)
+  //=> false
+});
 
-ghUsernameAvailable('harry-potter-1')
-//=> true
+ghUsernameAvailable('harry-potter-1', function (err, value){
+  console.log(value)
+  //=> true
+});
 ```
 
 
