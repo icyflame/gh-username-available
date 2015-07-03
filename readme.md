@@ -15,12 +15,12 @@ $ npm install --save gh-username-available
 ```js
 var ghUsernameAvailable = require('gh-username-available');
 
-ghUsernameAvailable('icyflame', function (err, value){
+ghUsernameAvailable('icyflame', function (err, value) {
   console.log(value)
   //=> false
 });
 
-ghUsernameAvailable('harry-potter-1', function (err, value){
+ghUsernameAvailable('harry-potter-1', function (err, value) {
   console.log(value)
   //=> true
 });
@@ -50,7 +50,7 @@ $ gh-username-available --help
 
 ## API
 
-### ghUsernameAvailable(username)
+### ghUsernameAvailable(username, callback)
 
 #### username
 
@@ -58,6 +58,13 @@ $ gh-username-available --help
 Type: `string`
 
 Username that you are trying to check
+
+#### callback(err, value)
+
+*Required*
+
+value is `true` if the username is available, and `false`
+if it is taken.
 
 
 ## License
