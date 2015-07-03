@@ -23,7 +23,14 @@
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "github",
+    "check",
+    "username",
+    "taken",
+    "availability",
+    "gh",
+    "users",
+    "api"
   ],
   "dependencies": {
     "got": "^3.3.0",
