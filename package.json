@@ -1,0 +1,37 @@
+{
+  "name": "gh-username-available",
+  "version": "0.0.0",
+  "description": "Find out whether a GitHub username is available or taken",
+  "license": "MIT",
+  "repository": "icyflame/gh-username-available",
+  "author": {
+    "name": "Siddharth Kannan",
+    "email": "kannan.siddharth12@gmail.com",
+    "url": "icyflame.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "preinstall": "npm install -g standard && standard --format index.js cli.js",
+    "test": "standard && mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "got": "^3.3.0",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
