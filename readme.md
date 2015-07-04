@@ -1,7 +1,10 @@
-# gh-username-available [![Build Status](https://travis-ci.org/icyflame/gh-username-available.svg?branch=master)](https://travis-ci.org/icyflame/gh-username-available)
+# gh-username-available
 
 > Find out whether a GitHub username is available or taken
 
+[![Build Status](https://travis-ci.org/icyflame/gh-username-available.svg?branch=master)](https://travis-ci.org/icyflame/gh-username-available)
+
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/Flet/semistandard)
 
 ## Install
 
@@ -16,12 +19,12 @@ $ npm install --save gh-username-available
 var ghUsernameAvailable = require('gh-username-available');
 
 ghUsernameAvailable('icyflame', function (err, value) {
-  console.log(value)
+  console.log(value);
   //=> false
 });
 
 ghUsernameAvailable('harry-potter-1', function (err, value) {
-  console.log(value)
+  console.log(value);
   //=> true
 });
 ```
